@@ -8,6 +8,8 @@
   <form method="post" action="proses_simpan.php" enctype="multipart/form-data">
   <table cellpadding="8">
   <tr>
+    <td>id</td>
+    <td><input type="number" name="id"></td>
     <td>NIS</td>
     <td><input type="text" name="nis"></td>
   </tr>
@@ -37,7 +39,7 @@
   </table>
   
   <hr>
-  <button type="submit" class="btn btn-primary" value="Daftar">Daftar</button>
+  <button type="submit" class="btn btn-primary" value="Daftar" name="Daftar">Daftar</button>
   <a href="index.php"><input type="button" class="btn btn-danger" value="Batal"></a>
   </form>
 </body>
