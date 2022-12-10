@@ -9,6 +9,6 @@ try{
     $pdo = new PDO('mysql:host=' . $host . ';dbname=' . $database, $username, $password);
 }
 catch(PDOException $e){
-    echo ('Connecition failed');
+    echo('Connecition failed');
 }
 ?>
